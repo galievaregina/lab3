@@ -6,10 +6,11 @@
     android:layout_height="match_parent"
     android:layout_marginEnd="30dp"
     android:layout_marginStart="30dp"
-    tools:context=".Activity_first">
+    tools:context=".MainActivity"
+    android:id="@+id/fragment1">
 
   <android.widget.Button
-      android:id="@+id/bt1_to_2"
+      android:id="@+id/bnToSecond"
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:text="@string/move_to2"
